@@ -1,0 +1,76 @@
+.Main_Image {
+  background-image: url(/pix.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+h4 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Lower_Area {
+  height: 250px;
+  background-color: tomato;
+  z-index: 1;
+}
+
+.Mini_Content {
+  height: 500px;
+  max-width: 600px;
+  background-color: thistle;
+  margin: auto;
+  z-index: 3;
+}
+
+.mini_photo {
+  background-image: url(food\ jpeg.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 50%;
+}
+
+.form_page {
+  background-color: white;
+  height: 500px;
+  width: 50%;
+}
+
+.ghButton {
+  background-color: green;
+  padding: 0.5rem;
+  width: px;
+}
+
+@media screen and (max-width: 250px) {
+  .Mini_Content {
+    height: 500px;
+    max-width: 600px;
+    background-color: thistle;
+    margin: auto;
+    z-index: 3;
+  }
+
+  .mini_photo {
+    display: none;
+  }
+
+  .form_page {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+  }
+
+  .ghButton {
+    background-color: green;
+    padding: 0.5rem;
+    width: px;
+  }
+}
